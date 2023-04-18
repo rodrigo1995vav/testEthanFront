@@ -1,0 +1,784 @@
+{
+    "General": {
+        "language": "Language",
+        "buttons": {
+            "cancel": "Cancel",
+            "close": "Close",
+            "submit": "Submit",
+            "confirm": "Confirm",
+            "add": "Add",
+            "update": "Update",
+            "edit": "Edit",
+            "delete": "Delete",
+            "view": "View",
+            "actions": "Actions",
+            "restore": "Restore",
+            "join": "Join meeting",
+            "send": "Send",
+            "apply": "Apply",
+            "end_meeting": "End meeting"
+        },
+        "labels": {
+            "notification": "Notification",
+            "no_result": "No results",
+            "empty": "Empty",
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "DefaultHeader": {
+        "labels": {
+            "home": "Home",
+            "projects": "Projects",
+            "meetings": "Meetings",
+            "tasks": "Tasks",
+            "users": "Users",
+            "reports": "Reports"
+        }
+    },
+    "DefaultHeaderDropdown": {
+        "labels": {
+            "account": "Account",
+            "profile": "My profile",
+            "picture": "My picture",
+            "settings": "Settings",
+            "change_password": "Change my password",
+            "logout": "Logout"
+        }
+    },
+    "DefaultFooter": {
+        "text": "Powered by"
+    },
+
+    "Register": {
+        "errors": {
+            "email_already_used": "Email address is already used",
+            "company_name_length": "Company name has to be at least 2 characters",
+            "company_name_required": "Company name is required",
+            "address_length": "Address has to be at least 2 characters",
+            "address_required": "Address is required",
+            "city_length": "City has to be at least 2 characters",
+            "city_required": "City is required",
+            "province_required": "Province is required",
+            "zipCode_required": "ZIP/Postal code is required",
+            "zipCode_matches": "Zip/Postal code can only contain characters, numbers and the sign (-)",
+            "country_required": "Country is required",
+            "phone_matches": "Phone number format is only composed with numbers and the signs (-+.)",
+            "firstName_length": "First name has to be at least 2 characters",
+            "firstName_required": "First name is required",
+            "lastName_length": "Last name has to be at least 2 characters",
+            "lastName_required": "Last name is required",
+            "email_required": "Email address is required",
+            "password2_required": "Password confirmation is required",
+            "timezone_required": "Timezone is required"
+        },
+        "msgs": {
+            "registration_successful": "An email with the activation link was sent to you.<br/>Please activate your account by clicking on it.<br/>"
+        },
+        "buttons": {
+            "submit": "Create Account"
+        },
+        "labels": {
+            "company": "Company Name",
+            "address": "Address",
+            "city": "City",
+            "zipCode": "ZIP/Postal Code",
+            "country": "Select country",
+            "province": "Province",
+            "province_select": "Select province/region",
+            "phone": "Telephone",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "password": "Password",
+            "password2": "Repeat your password",
+            "timezone": "Select timezone..."
+        },
+        "titles": {
+            "register": "Register",
+            "register_desc": "Create your account",
+            "registration_successful": "Registration successful!"
+        }
+    },
+    "Login": {
+        "errors": {
+            "email_not_valid": "Email address is not valid",
+            "email_not_found": "Email entered doesn't exist",
+            "password_length": "Password length must be at least 8 characters long",
+            "password_complexity": "Password must contain: number, uppercase & lowercase letters, special character (!#$%&*+-./:;<=>?@_|)",
+            "email_password_not_valid": "Email and/or password is not valid",
+            "company_inactive": "Company is inactive",
+            "account_locked": "Account is locked",
+            "account_inactive": "Account is inactive",
+            "account_deleted": "Account has been deleted"
+        },
+        "msgs": {
+            "account_activated_successfully": "Account activated successfully!",
+            "password_changed_successfully": "Password changed successfully!",
+            "password_forgotten_successfully": "An email with a link to reset your password was sent to you.<br/>Please reset your password by clicking on it.<br/>"
+        },
+        "labels": {
+            "username": "Username",
+            "password": "Password",
+            "email": "Email address"
+        },
+        "titles": {
+            "login": "Login",
+            "login_desc": "Sign In to your account",
+            "sign_up": "Sign up",
+            "forgot_password": "Forgot password?"
+        },
+        "links": {
+            "forgot_password": "Forgot password?",
+            "register_now": "Register Now!"
+        },
+        "list_item_1": "Better meetings preparation",
+        "list_item_2": "Meetings end on time",
+        "list_item_3": "Post-meeting tasks tracked"
+    },
+    "ResetPassword": {
+        "errors": {
+            "password2": "Both password entered must be the same"
+        },
+        "labels": {
+            "password": "Enter your new password",
+            "password2": "Confirm your new password",
+            "email": "Email address"
+        },
+        "titles": {
+            "reset_password": "Reset your password"
+        }
+    },
+    "ActivateGuest": {
+        "titles": {
+            "set_password": "Set your password"
+        }
+    },
+    "Profile": {
+        "titles": {
+            "profile": "Update my profile"
+        },
+        "msgs": {
+            "profile_updated_successfully": "Your profile was updated successfully!"
+        }
+    },
+    "ProfilePicture": {
+        "titles": {
+            "change_picture": "Update my picture"
+        },
+        "labels": {
+            "choose_image": "Choose image",
+            "image_restrictions": "Image max size allowed {{var}} mb - Extensions allowed are .jpg,.gif,.png,.jpeg"
+        },
+        "msgs": {
+            "picture_updated_successfully": "Your picture was updated successfully!",
+            "picture_updated_alert": "Cannot update profile picture. Please try again later!"
+        }
+    },
+    "ChangePassword": {
+        "errors": {
+            "current_password": "Your new password must be different for your current password",
+            "current_password_not_valid": "Your current password is not valid"
+        },
+        "labels": {
+            "currentPassword": "Enter your current password"
+        },
+        "titles": {
+            "change_password": "Change your password"
+        }
+    },
+
+    "Users": {
+        "titles": {
+            "users": "Users",
+            "deleting_user": "Deleting User - "
+        },
+        "labels": {
+            "new_user": "Add a new user",
+            "role": "Role",
+            "User": "User",
+            "Superuser": "Superuser",
+            "fullName": "Full Name",
+            "email": "Email",
+            "created": "Created on",
+            "lastLoginDate": "Last login",
+            "status": "Status",
+            "status_active": "Active",
+            "status_inactive": "Inactive",
+            "status_deleted": "Deleted",
+            "status_locked": "Locked"
+        },
+        "msgs": {
+            "user_deleted_successfully": "User was deleted successfully!"
+        }
+    },
+    "User": {
+        "titles": {
+            "new_user": "Add a new user",
+            "edit_user": "Edit user"
+        },
+        "labels": {
+            "new_user": "Add a new user"
+        },
+        "msgs": {
+            "user_created_successfully": "User was created successfully!",
+            "user_updated_successfully": "User was updated successfully!"
+        }
+    },
+
+    "Projects": {
+        "titles": {
+            "projects": "Projects",
+            "deleting_project": "Deleting Project - "
+        },
+        "labels": {
+            "new_project": "Add a new project",
+            "name": "Name",
+            "reference": "Reference",
+            "description": "Description",
+            "created": "Created on",
+            "members": "Members"
+        },
+        "msgs": {
+            "project_deleted_successfully": "Project was deleted successfully!"
+        }
+    },
+    "Project": {
+        "titles": {
+            "new_project": "Add a new project",
+            "edit_project": "Edit project",
+            "general_information": "General Information",
+            "members": "Members",
+            "board": "Board"
+        },
+        "labels": {
+            "new_project": "Add a new project",
+            "name": "Name",
+            "reference": "Reference",
+            "description": "Description",
+            "type": "Type",
+            "development": "Development",
+            "infrastructure": "Infrastructure",
+            "innovation": "Innovation",
+            "management": "Management",
+            "manufacturing": "Manufacturing",
+            "migration": "Migration",
+            "optimization": "Optimization",
+            "other": "Other",
+            "research_development": "Research & Development"
+        },
+        "msgs": {
+            "project_created_successfully": "Project was created successfully!",
+            "project_updated_successfully": "Project was updated successfully!"
+        }
+    },
+    "Board": {
+        "labels": {
+            "add_item": "Add item",
+            "edit_item": "Edit item",
+            "show": "Show",
+            "hide": "Hide"
+        }
+    },
+
+    "Tasks": {
+        "titles": {
+            "tasks": "Tasks",
+            "board": "Board",
+            "list": "List"
+        },
+        "labels": {
+            "select_project": "Select project",
+            "number": "#",
+            "title": "Title",
+            "created": "Created on",
+            "dueDate": "Due date"
+        }
+    },
+    "Task": {
+        "titles": {
+            "new_task": "New task",
+            "edit_task": "Edit task",
+            "general_information": "General Information",
+            "attachments": "Attachments",
+            "comments": "Comments"
+        },
+        "labels": {
+            "assignedTo": "Assigned to",
+            "title": "Title",
+            "description": "Description",
+            "status": "Status",
+            "new": "New",
+            "assigned": "Assigned",
+            "cancelled": "Cancelled",
+            "resolved": "Resolved",
+            "closed": "Closed",
+            "priority": "Priority",
+            "type": "Type",
+            "bug": "Bug",
+            "feature": "Feature",
+            "change": "Change",
+            "task": "Task",
+            "request": "Request",
+            "p1": "Low",
+            "p3": "Medium",
+            "p5": "High",
+            "board": "Board",
+            "dueDate": "Due date"
+        },
+        "msgs": {
+            "task_created_successfully": "Task created successfully!",
+            "task_updated_successfully": "Task updated successfully!",
+            "task_deleted_successfully": "Task deleted successfully!"
+        }
+    },
+
+    "Meetings": {
+        "titles": {
+            "meetings": "Meetings",
+            "upcoming": "Upcoming Meetings",
+            "previous": "Previous Meetings",
+            "cancelled": "Cancelled Meetings",
+            "cancelling_meeting": "Canceling Meeting - "
+        },
+        "labels": {
+            "new_meeting": "Schedule a meeting",
+            "dateTime": "Date",
+            "time": "Start/End Time",
+            "subject": "Subject",
+            "details": "Details",
+            "duration": "Duration: ",
+            "reference": "Reference: ",
+            "agenda": "Agenda",
+            "goals": "Objectives",
+            "attendees": "Participants",
+            "documents": "Documents",
+            "started": "In progress",
+            "status_missed": "Missed",
+            "status_completed": "Completed",
+            "status_started": "In progress",
+            "status_new": "Not started",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "code": "Code",
+            "file": "File",
+            "link": "Link",
+            "cancelling_meeting_note": "This action will not generate automatically an email to the participants"
+        },
+        "buttons": {
+            "objectives": "Objectives",
+            "reschedule": "Reschedule",
+            "send_invitations": "Send invitations",
+            "communication_history": "Communication history",
+            "notify_attendees": "Notify Participants",
+            "copy_to_clipboard": "Copy link to clipboard",
+            "start": "Start",
+            "join": "Join"
+        },
+        "msgs": {
+            "meeting_restore_in_progress": "Meeting is being restored...",
+            "meeting_restored_successfully": "Meeting was restored successfully!",
+            "meeting_cancelled_successfully": "Meeting was cancelled successfully!",
+            "link_copied_successfully": "Meeting link was successfully copied to the clipboard!",
+            "meeting_started_successfully": "Meeting started successfully in a new tab!"
+        }
+    },
+    "Invitations": {
+        "titles": {
+            "send_invitations": "Send invitations to the participants",
+            "notify_attendees": "Notify participants"
+        },
+        "labels": {
+            "to": "To",
+            "cc": "CC",
+            "calendar_request": "Include calendar invitation",
+            "calendar_cancel": "Include calendar cancellation",
+            "subject": "Subject",
+            "date": "Date",
+            "sent_on": "Sent on"
+        },
+        "errors": {
+            "to_empty": "At least one participant is required",
+            "error_cc": "CC is not valid - for multiple emails use ',' or ';' as separator",
+            "error_bcc": "BCC is not valid - for multiple emails use ',' or ';' as separator",
+            "subject_required": "Subject is required",
+            "content_required": "Content is required"
+        },
+        "msgs": {
+            "invitations_sent_successfully": "Invitations were sent successfully!",
+            "notifications_sent_successfully": "Notifications were sent successfully!"
+        },
+        "email": {
+            "line_request": "<p>You are invited to join a meeting on <b>{{dateTime}}</b>.</p>",
+            "line_cancel": "<p>The meeting on <b>{{dateTime}}</b> was cancelled.</p>",
+            "line_subject": "<p><u>Subject:</u> <b>{{subject}}</b></p>",
+            "line_description": "<p><u>Description:</u> {{description}}</p>",
+            "line_link": "<p><a href='{{link}}' style='color: darkBlue'><b>Here is the TEAM-1.CO link to join the session ({{link}})</b></a></p>",
+            "line_password": "<p><i>Please use this password <b><u>{{password}}</u></b> to connect</i></p>",
+            "line_title_agenda": "<b><u>Agenda</u></b>",
+            "line_title_goals": "<b><u>Objectives</u></b>",
+            "line_priority_p5": "  <span style='color: #e55353'>(High)</span>",
+            "line_priority_p3": "  <span style='color: darkOrange'>(Medium)</span>",
+            "line_priority_p1": "  <span style='color: #2eb85c'>(Low)</span>",
+            "line_title_attendees": "<b><u>Participants</u></b>",
+            "line_presence_required": "  <span style='color: #39f'>(Required)</span>",
+            "line_presence_optional": "  <span style='color: #636f83'>(Optional)</span>",
+            "line_title_documents": "<b><u>Documents</u></b>",
+            "line_title_notes": "<b><u>Notes</u></b>"
+        }
+    },
+    "Objectives": {
+        "titles": {
+            "manage_meeting_objectives": "Were the meeting objectives achieved?"
+        },
+        "labels": {
+            "completed": "Completed",
+            "add_item": "Any additional objective achieved?",
+            "edit_item": "Edit additional objective",
+            "new": "New"
+        },
+        "msgs": {
+            "meeting_objectives_updated_successfully": "Meeting objectives were updated successfully!"
+        }
+    },
+    "Meeting": {
+        "titles": {
+            "new_meeting": "Schedule a meeting",
+            "edit_meeting": "Edit meeting",
+            "general_information": "General Information",
+            "agenda": "Agenda",
+            "attendees": "Participants",
+            "goals": "Objectives",
+            "documents": "Documents",
+            "notes": "Notes"
+        },
+        "errors": {
+            "subject_required": "Subject is required",
+            "type_required": "Type is required",
+            "date_required": "Date is required",
+            "time_required": "Time is required",
+            "duration_required": "Duration is required",
+            "duration_equal_to_zero": "Duration is required",
+            "meeting_shorter_agenda": "The duration of the meeting is shorter than the list of items on the agenda",
+            "agenda_shorter_meeting": "The list of items on the agenda is shorter than the duration of the meeting",
+            "meeting_date_not_valid": "Meeting start date/time has to be in the future"
+        },
+        "labels": {
+            "new_meeting": "Schedule a new meeting",
+            "subject": "Subject",
+            "type": "Meeting type",
+            "board_meeting": "Board meeting",
+            "ideation": "Ideation",
+            "interview": "Interview",
+            "planning": "Planning",
+            "other": "Other",
+            "status": "Status",
+            "webinar": "Webinar",
+            "reference": "Reference",
+            "description": "Description",
+            "secure_meeting_checked": "A password is required to join the meeting",
+            "secure_meeting_unchecked": "No password is required to join the meeting",
+            "date": "Date",
+            "time": "Time",
+            "duration_h": "Hour(s)",
+            "duration_m": "Minute(s)",
+            "timezone": "Timezone",
+            "timezone_help": "You can update your default timezone by going to your profile settings",
+            "notes": "Notes",
+            "code": "Code"
+        },
+        "msgs": {
+            "meeting_created_successfully": "Meeting was created successfully!",
+            "meeting_updated_successfully": "Meeting was updated successfully!"
+        }
+    },
+    "Agenda": {
+        "labels": {
+            "scheduled": "Scheduled",
+            "add_item": "Add an item to the Agenda",
+            "edit_item": "Edit item",
+            "duration": "Duration"
+        },
+        "errors": {
+            "agenda_duration_add": "The duration of the meeting doesn't allow this item to be added",
+            "agenda_duration_update": "The duration of the meeting doesn't allow this item to be updated"
+        }
+    },
+    "Goals": {
+        "labels": {
+            "add_item": "Add an objective",
+            "edit_item": "Edit objective",
+            "priority": "Priority",
+            "p1": "Low",
+            "p3": "Medium",
+            "p5": "High"
+        }
+    },
+    "Attendees": {
+        "labels": {
+            "add_item": "Add a participant",
+            "edit_item": "Edit participant",
+            "type": "Type",
+            "guest": "Guest",
+            "coHost": "Co-Host",
+            "organizer": "Organizer",
+            "required": "Required",
+            "optional": "Optional"
+        }
+    },
+    "Docs": {
+        "buttons": {
+            "add_doc": "Add a document",
+            "from_url": "URL",
+            "from_file": "Upload file"
+        },
+        "labels": {
+            "upload_file": "Click here to upload a file!",
+            "file_type": "Extensions allowed are {{var}}",
+            "file_too_large": "File max size allowed {{var}} mb",
+            "filename": "Enter document name",
+            "add_link": "Enter URL",
+            "edit_item": "Edit document name",
+            "edit_link": "Edit URL"
+        },
+        "errors": {
+            "file_type": "File type is not allowed!",
+            "file_too_large": "File is too large!"
+        }
+    },
+
+    "Joining": {
+        "labels": {
+            "disconnected": "You have been disconnected."
+        }
+    },
+    "Summary": {
+        "titles": {
+            "participant_information": "Participant information"
+        },
+        "labels": {
+            "fullName": "Full Name*",
+            "email": "Email address*",
+            "password": "Password*",
+            "organizer": "Organizer",
+            "status_new": "Meeting is scheduled in more than {{var}} minutes. <br/>Try again later!",
+            "status_completed": "The meeting is over.",
+            "status_timer_new": "Organizer has not yet arrived. <br/>Please wait while the organizer starts the meeting...",
+            "status_timer_wait": "Meeting will start in {{var}} minutes.<br/> Please wait while the organizer starts the meeting...",
+            "status_timer_started": "Meeting started {{var}} minutes ago..."
+        },
+        "errors": {
+            "fullName_required": "Full Name is required",
+            "fullName_min": "Full Name has to be at least 2 characters",
+            "email_required": "Email is required",
+            "email_not_valid": "Email entered is not valid",
+            "password_length": "Password length has to be at least 8 characters",
+            "password_not_valid": "Password entered is not valid"
+        }
+    },
+    "Execution": {
+        "titles": {
+            "manage_meeting_objective": "Was the meeting objective achieved?",
+            "additional_objective": "Additional Objective",
+            "additional_document": "Additional Document",
+            "edit_document": "Edit Document",
+            "additional_participant": "Additional Participant",
+            "chat": "Chat",
+            "whiteboard": "Whiteboard",
+            "ideation": "Ideation",
+            "votes": "Votes",
+            "tasks": "Tasks",
+            "file_viewer": "File Viewer",
+            "questions": "Questions",
+            "reply": "Reply",
+            "pdf_viewer": "PDF Viewer"
+        },
+        "labels": {
+            "msg": "Enter your message...",
+            "chat_disabled": "The organizer has disabled the chat",
+            "all": "All",
+            "display": "Display",
+            "answered": "Answered",
+            "unanswered": "Unanswered",
+            "reply": "Reply",
+            "additional_reply": "Additional reply",
+            "response": "Enter your answer...",
+            "questions": "Enter your question...",
+            "questions_disabled": "The organizer has disabled the ability submit questions",
+            "additional_objective": "Additional Objective",
+            "docs_disabled": "The organizer has disabled the ability to send documents",
+            "settings": "Settings",
+            "option_disable_chat": "Disable chat for guests",
+            "option_disable_chat_desc": "By checking this option, guests will not be able to send messages",
+            "option_disable_questions": "Disable questions for guests",
+            "option_disable_questions_desc": "By checking this option, guests will not be able to submit questions",
+            "option_disable_docs": "Disable document sending for guests",
+            "option_disable_docs_desc": "By checking this option, guests will not be able to send a document",
+            "option_whiteboard_owner": "Whiteboard",
+            "option_ideation_owner": "Ideation",
+            "option_votes_owner": "Votes",
+            "option_project_owner": "Project",
+            "option_settings_desc": "Any change will become effective once you click on the button <u>Apply</u>"
+        },
+        "buttons": {
+            "additional_objective": "Additional Objective",
+            "additional_document": "Additional Document",
+            "additional_participant": "Additional Participant"
+        },
+        "msgs": {
+            "participant_joined": "{{var}} joined the meeting",
+            "participant_left": "{{var}} left the meeting",
+            "msg_not_sent": "Not able to send the message",
+            "question_not_sent": "Not able to submit the question",
+            "answer_not_submitted": "Not able to submit the answer",
+            "meeting_answers_updated": "An answer was provided to one of the questions",
+            "meeting_objectives_updated": "Meeting objectives updated",
+            "meeting_objectives_not_updated": "Unable to update meeting objectives",
+            "meeting_docs_updated": "Meeting documents updated",
+            "meeting_docs_not_updated": "Unable to update meeting documents",
+            "meeting_participants_updated_successfully": "Meeting participants updated successfully!",
+            "meeting_participants_not_updated": "Unable to update meeting participants",
+            "settings_updated_successfully": "Settings were applied successfully!",
+            "settings_not_updated": "Unable to apply settings",
+            "whiteboard_saved_successfully": "File ready to be downloaded",
+            "sync_not_sent": "Unable to synchronize"
+        }
+    },
+    "Whiteboard": {
+        "labels": {
+            "arrow": "Arrow",
+            "line": "Line",
+            "circle": "Circle",
+            "ellipse": "Ellipse",
+            "rect": "Rectangle",
+            "triangle": "Triangle",
+            "enter_text": "Enter your text..."
+        }
+    },
+    "Ideation": {
+        "titles": {
+            "additional_node": "Additional Node",
+            "edit_node": "Edit Node",
+            "save": "Save",
+            "open": "Open"
+        },
+        "labels": {
+            "title": "Enter node title...",
+            "description": "Enter node description...",
+            "flag": "Flag",
+            "save_as_new": "Save under a new file",
+            "name": "Enter file name",
+            "select_file_to_override": "Select the file to override",
+            "select_file_to_open": "Select the file to open"
+        },
+        "msgs": {
+            "file_saved_successfully": "File saved successfully!",
+            "file_not_saved": "Unable to save the file",
+            "file_opened_successfully": "File opened successfully!",
+            "unable_to_open_the_file": "Unable to open the file"
+        }
+    },
+    "Votes": {
+        "titles": {
+            "additional_vote": "Additional Vote",
+            "edit_vote": "Edit Vote",
+            "submit_vote": "Submit vote",
+            "id": "ID",
+            "title": "TITLE",
+            "type": "TYPE",
+            "status": "STATUS",
+            "votes": "VOTES"
+        },
+        "labels": {
+            "title": "Enter title...",
+            "description": "Enter description...",
+            "type": "Type of vote",
+            "type_yes_no": "Yes/No",
+            "type_percentage": "Percentage",
+            "type_levels": "Levels",
+            "type_custom": "Custom",
+            "number": "Number of options",
+            "option": "Enter option ",
+            "status_created": "Created",
+            "status_in_progress": "In progress",
+            "status_completed": "Completed",
+            "cancel": "Cancel vote",
+            "launch": "Launch vote",
+            "results": "Show results",
+            "edit": "Edit vote",
+            "vote": "Vote",
+            "end": "End vote",
+            "very_low": "Very low",
+            "low": "Low",
+            "moderate": "Moderate",
+            "high": "High",
+            "very_high": "Very high"
+        }
+    },
+
+    "Dashboard": {
+        "labels": {
+            "assigned_tasks": "Tasks assigned to me that have the status <b>'new'</b> or <b>'assigned'</b>",
+            "total": "Total",
+            "meetings": "Meetings",
+            "cancelled": "Cancelled",
+            "completed": "Completed",
+            "upcoming": "Upcoming"
+        }
+    },
+
+    "Website": {
+        "nav": {
+            "home": "Home",
+            "our_solution": "Our Solution",
+            "testimony": "Testimony",
+            "pricing": "Pricing",
+            "pictures": "Pictures",
+            "blog": "Blog",
+            "contact": "Contact",
+            "login": "Login",
+            "register": "Register",
+            "label": "<span className='font-3xl'>Create <i className='font-5xl'>working groups</i> that people want to be a part of</span><br/><span className='font-3xl'>Run meetings that <i className='font-5xl'>people</i> want to join</span><br/><span className='font-3xl'>Make the <i className='font-5xl'>best decisions for your goals</i></span><br/><span className='font-3xl'>Organize <i className='font-5xl'>tasks all in one automated solution</i></span>"
+        },
+        "solution": {
+            "title_1": "Live Collaboration Dashboard",
+            "desc_1": "Lets your whole team see the meeting objectives, timeline, ideation, voting and task allocation all in 1 shared live visual interface",
+            "title_2": "Calendar Integration",
+            "desc_2": "Send, receive, approve, cancel and reject meeting invites",
+            "title_3": "Pre-Meeting Document Upload",
+            "desc_3": "Lets the meeting organizer upload all relevant materials before the meeting to save in meeting reading time",
+            "title_4": "Collaborative Virtual Office",
+            "desc_4": "Lets team members share their suggestions and vote anonymously on the best ideas without traditional constraints and biases",
+            "title_5": "Task Allocation",
+            "desc_5": "Allocate, track and complete tasks in and out of meetings with an easy to use shared task dashboard",
+            "title_6": "Whiteboard",
+            "desc_6": "Enhance collaboration and facilitate better communication using the shared meeting whiteboard"
+        },
+        "pricing": {
+            "monthly": "Monthly plan",
+            "annually": "Annual plan",
+            "monthly_billed": "Per user, per month: Billed monthly",
+            "annually_billed": "Per user, per month: billed annually",
+            "feature1": "Users Management",
+            "feature2": "Projects Management",
+            "feature3": "Tasks Management",
+            "feature4": "Meeting Management",
+            "feature5": "Objectives Management",
+            "feature6": "Shared Ideation",
+            "feature7": "Shared Whiteboard",
+            "feature8": "Live Anonymous Voting"
+        },
+        "contact": {
+            "title": "About Us / Mission",
+            "details": "We designed and built the Team-1 solution to make meetings and creative collaboration more fun, efficient and empowering for diverse groups. Business owners and managers can use Team-1 to create a better return on investment for the salaries they pay their teams by making meetings more efficient and getting the most out of every team member via the Team-1 set of collaboration solutions.",
+            "address": "Our Address",
+            "social_title": "Connect with Us",
+            "drop_line": "Drop us a line",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send_message": "Send Message",
+            "confirmation": "Your message was sent successfully. We will contact you shortly!"
+        }
+    }
+}

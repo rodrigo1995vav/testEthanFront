@@ -1,0 +1,784 @@
+{
+    "General": {
+        "language": "Idioma",
+        "buttons": {
+            "cancel": "Cancelar",
+            "close": "Cerrar",
+            "submit": "Enviar",
+            "confirm": "Confirmar",
+            "add": "Añadir",
+            "update": "Actualizar",
+            "edit": "Editar",
+            "delete": "Eliminar",
+            "view": "Ver",
+            "actions": "Acciónes",
+            "restore": "Restablecer",
+            "join": "Unirse a la reunión",
+            "send": "Enviar",
+            "apply": "Aplicar",
+            "end_meeting": "Finalizar la reunión"
+        },
+        "labels": {
+            "notification": "Notificación",
+            "no_result": "No hay resultados",
+            "empty": "Vacío",
+            "yes": "Si",
+            "no": "No"
+        }
+    },
+    "DefaultHeader": {
+        "labels": {
+            "home": "Inicio",
+            "projects": "Proyectos",
+            "meetings": "Reuniones",
+            "tasks": "Tareas",
+            "users": "Usarios",
+            "reports": "Informes"
+        }
+    },
+    "DefaultHeaderDropdown": {
+        "labels": {
+            "account": "Cuenta",
+            "profile": "Mi perfil",
+            "picture": "Mi foto",
+            "settings": "Configuraciones",
+            "change_password": "Cambiar mi contraseña",
+            "logout": "Cerrar sesión"
+        }
+    },
+    "DefaultFooter": {
+        "text": "Energizado por"
+    },
+
+    "Register": {
+        "errors": {
+            "email_already_used": "La dirección de correo electrónico ya está en uso",
+            "company_name_length": "El nombre de la empresa debe tener al menos 2 caracteres",
+            "company_name_required": "Se requiere el nombre de la empresa",
+            "address_length": "La dirección debe tener al menos 2 caracteres",
+            "address_required": "Se requiere la dirección",
+            "city_length": "La ciudad debe tener al menos 2 caracteres",
+            "city_required": "Se requiere ciudad",
+            "province_required": "Se requiere la provincia",
+            "zipCode_required": "Se requiere el código postal",
+            "zipCode_matches": "El código postal solo puede contener caracteres, números y el signo (-)",
+            "country_required": "Se requiere el país",
+            "phone_matches": "El formato del número de teléfono solo se compone de números y caracteres (-+.)",
+            "firstName_length": "El nombre debe tener al menos 2 caracteres",
+            "firstName_required": "Se requiere el primer nombre",
+            "lastName_length": "El apellido debe tener al menos 2 caracteres",
+            "lastName_required": "Se requiere el appellido",
+            "email_required": "Se requiere el correo electrónico",
+            "password2_required": "Se requiere confirmación de contraseña",
+            "timezone_required": "Se requiere zona horaria"
+        },
+        "msgs": {
+            "registration_successful": "Se le envió un correo electrónico con el enlace de activación. <br/> Active su cuenta haciendo clic en él. <br/>"
+        },
+        "buttons": {
+            "submit": "Crear una cuenta"
+        },
+        "labels": {
+            "company": "Nombre de empresa",
+            "address": "Dirección",
+            "city": "Ciudad",
+            "zipCode": "Código postal",
+            "country": "Seleccionar país",
+            "province": "Provincia",
+            "province_select": "Seleccione provincia / región",
+            "phone": "Teléfono",
+            "firstName": "Nombre",
+            "lastName": "Appellido",
+            "email": "Correo electrónico",
+            "password": "Contraseña",
+            "password2": "Repita su contraseña",
+            "timezone": "Selecciona la zona horaria..."
+        },
+        "titles": {
+            "register": "Registrarse",
+            "register_desc": "Crear su cuenta",
+            "registration_successful": "¡Registro exitoso!"
+        }
+    },
+    "Login": {
+        "errors": {
+            "email_not_valid": "El correo no es válido",
+            "email_not_found": "El correo electrónico ingresado no existe",
+            "password_length": "La longitud de la contraseña debe tener al menos 8 caracteres",
+            "password_complexity": "La contraseña debe contener: número, letras mayúsculas y minúsculas, caracteres especiales (!#$%&*+-./:;<=>?@_|)",
+            "email_password_not_valid": "El correo electrónico y / o la contraseña no son válidos",
+            "company_inactive": "La empresa está inactiva.",
+            "account_locked": "La cuenta está bloqueada",
+            "account_inactive": "Cuenta inactiva",
+            "account_deleted": "La cuenta ha sido eliminada"
+        },
+        "msgs": {
+            "account_activated_successfully": "¡Cuenta activada con éxito!",
+            "password_changed_successfully": "¡Contraseña cambiada con éxito!",
+            "password_forgotten_successfully": "Se le envió un correo electrónico con el enlace para restablecer su contraseña.<br/> Restablezca su contraseña haciendo clic en él.<br/>"
+        },
+        "labels": {
+            "username": "Usario",
+            "password": "Contraseña",
+            "email": "Correo electrónico"
+        },
+        "titles": {
+            "login": "Iniciar sesión",
+            "login_desc": "Iniciar sesión en su cuenta",
+            "sign_up": "Regístrar",
+            "forgot_password": "¿Contraseña olvidado?"
+        },
+        "links": {
+            "forgot_password": "¿Contraseña olvidado?",
+            "register_now": "¡Regístrate ahora!"
+        },
+        "list_item_1": "Mejor preparación de reuniones",
+        "list_item_2": "Las reuniones terminan a tiempo",
+        "list_item_3": "Seguimiento de las tareas posteriores"
+    },
+    "ResetPassword": {
+        "errors": {
+            "password2": "Ambas contraseñas ingresadas deben ser iguales"
+        },
+        "labels": {
+            "password": "Introduzca su nueva contraseña",
+            "password2": "Confirma su nueva contraseña",
+            "email": "Correo electrónico"
+        },
+        "titles": {
+            "reset_password": "Restablecer contraseña"
+        }
+    },
+    "ActivateGuest": {
+        "titles": {
+            "set_password": "Establece tu contraseña"
+        }
+    },
+    "Profile": {
+        "titles": {
+            "profile": "Actualizar mi perfil"
+        },
+        "msgs": {
+            "profile_updated_successfully": "Su perfil fue actualizado con éxito!"
+        }
+    },
+    "ProfilePicture": {
+        "titles": {
+            "change_picture": "Actualizar mi foto"
+        },
+        "labels": {
+            "choose_image": "Elige imagen",
+            "image_restrictions": "Tamaño máximo de imagen permitido {{var}} mb - Las extensiones permitidas son .jpg,.gif,.png,.jpeg"
+        },
+        "msgs": {
+            "picture_updated_successfully": "Su imagen se actualizó con éxito!",
+            "picture_updated_alert": "No se puede actualizar la imagen de perfil. Intenta nuevamente más tarde!"
+        }
+    },
+    "ChangePassword": {
+        "errors": {
+            "current_password": "Su nueva contraseña debe ser diferente de su contraseña actual",
+            "current_password_not_valid": "Tu contraseña actual no es válida"
+        },
+        "labels": {
+            "currentPassword": "Introduce tu contraseña actual"
+        },
+        "titles": {
+            "change_password": "Cambiar contraseña"
+        }
+    },
+
+    "Users": {
+        "titles": {
+            "users": "Usuarios",
+            "deleting_user": "Eliminando usuario - "
+        },
+        "labels": {
+            "new_user": "Añadir una nueva usuaria",
+            "role": "Papel",
+            "User": "Usuario",
+            "Superuser": "Superusuario",
+            "fullName": "Nombre completo",
+            "email": "Correo electrónico",
+            "created": "Creado el",
+            "lastLoginDate": "Último acceso",
+            "status": "Estado",
+            "status_active": "Activo",
+            "status_inactive": "Inactivo",
+            "status_deleted": "Eliminado",
+            "status_locked": "Bloqueado"
+        },
+        "msgs": {
+            "user_deleted_successfully": "¡El usuario fue eliminado con éxito!"
+        }
+    },
+    "User": {
+        "titles": {
+            "new_user": "Añadir un nuevo usuario",
+            "edit_user": "Editar usuario"
+        },
+        "labels": {
+            "new_user": "Aañadir un nuevo usuario"
+        },
+        "msgs": {
+            "user_created_successfully": "¡El usuario fue creado con éxito!",
+            "user_updated_successfully": "El usuario se actualizó con éxito!"
+        }
+    },
+
+    "Projects": {
+        "titles": {
+            "projects": "Proyectos",
+            "deleting_project": "Eliminar proyecto - "
+        },
+        "labels": {
+            "new_project": "Agregar un nuevo proyecto",
+            "name": "Nombre",
+            "reference": "Referencia",
+            "description": "Descripción",
+            "created": "Creado el",
+            "members": "Miembros"
+        },
+        "msgs": {
+            "project_deleted_successfully": "¡El proyecto fue eliminado con éxito!"
+        }
+    },
+    "Project": {
+        "titles": {
+            "new_project": "Agregar un nuevo proyecto",
+            "edit_project": "Editar proyecto",
+            "general_information": "Información general",
+            "members": "Miembros",
+            "board": "Tablero",
+            "name": "Nombre",
+            "reference": "Referencia",
+            "description": "Descripción",
+            "type": "Tipo",
+            "development": "Desarrollo",
+            "infrastructure": "Infraestructura",
+            "innovation": "Innovación",
+            "management": "Administración",
+            "manufacturing": "Fabricación",
+            "migration": "Migración",
+            "optimization": "Mejoramiento",
+            "other": "Otro",
+            "research_development": "Investigación y desarrollo"
+        },
+        "labels": {
+            "new_project": "Agregar un nuevo proyecto"
+        },
+        "msgs": {
+            "project_created_successfully": "¡El proyecto fue creado con éxito!",
+            "project_updated_successfully": "¡El proyecto se actualizó con éxito!"
+        }
+    },
+    "Board": {
+        "labels": {
+            "add_item": "Añadir elemento",
+            "edit_item": "Editar elemento",
+            "show": "Monstrar",
+            "hide": "Ocultar"
+        }
+    },
+
+    "Tasks": {
+        "titles": {
+            "tasks": "Tareas",
+            "board": "Tablero",
+            "list": "Lista"
+        },
+        "labels": {
+            "select_project": "Seleccione proyecto",
+            "number": "#",
+            "title": "Título",
+            "created": "Creado el",
+            "dueDate": "Fecha de vencimiento"
+        }
+    },
+    "Task": {
+        "titles": {
+            "new_task": "Nueva tarea",
+            "edit_task": "Editar tarea",
+            "general_information": "Información general",
+            "attachments": "Archivos adjuntos",
+            "comments": "Comentarios"
+        },
+        "labels": {
+            "assignedTo": "Asignado a",
+            "title": "Título",
+            "description": "Descripción",
+            "status": "Estado",
+            "new": "Nuevo",
+            "assigned": "Asignada",
+            "cancelled": "Cancelada",
+            "resolved": "Resuelta",
+            "closed": "Cerrado",
+            "priority": "Priorité",
+            "type": "Tipo",
+            "bug": "Error",
+            "feature": "Característica",
+            "change": "Cambio",
+            "task": "Tarea",
+            "request": "Solicitud",
+            "p1": "Baja",
+            "p3": "Media",
+            "p5": "Alta",
+            "board": "Rablero",
+            "dueDate": "Fecha de vencimiento"
+        },
+        "msgs": {
+            "task_created_successfully": "¡Tarea creada con éxito!",
+            "task_updated_successfully": "¡Tarea actualizada con éxito!",
+            "task_deleted_successfully": "¡Tarea eliminada con éxito!"
+        }
+    },
+
+    "Meetings": {
+        "titles": {
+            "meetings": "Reuniones",
+            "upcoming": "Próximas reuniones",
+            "previous": "Reuniones anteriores",
+            "cancelled": "Reuniones canceladas",
+            "cancelling_meeting": "Cancelar reunión - "
+        },
+        "labels": {
+            "new_meeting": "Programar una reunión",
+            "dateTime": "Fecha",
+            "time": "Hora de inicio / finalización",
+            "subject": "Tema",
+            "details": "Detalles",
+            "duration": "Duración: ",
+            "reference": "Referencia: ",
+            "agenda": "Orden del día",
+            "goals": "Objetivos",
+            "attendees": "Participantes",
+            "documents": "Documentos",
+            "started": "En progreso",
+            "status_missed": "Perdida",
+            "status_completed": "Terminada",
+            "status_started": "En progreso",
+            "status_new": "No ha empezado",
+            "startDate": "Fecha de inicio",
+            "endDate": "fecha final",
+            "code": "Código",
+            "file": "Archivo",
+            "link": "Enlace",
+            "cancelling_meeting_note": "Esta acción no generará automáticamente un correo electrónico a los participantes"
+        },
+        "buttons": {
+            "objectives": "Objetivos",
+            "reschedule": "Reprogramar",
+            "send_invitations": "Enviar invitaciones",
+            "communication_history": "Historia de la comunicación",
+            "notify_attendees": "Notificar a los participantes",
+            "copy_to_clipboard": "Copiar enlace al portapapeles",
+            "start": "Empezar",
+            "join": "Unirse"
+        },
+        "msgs": {
+            "meeting_restore_in_progress": "La reunión se está restaurando ...",
+            "meeting_restored_successfully": "La reunión se restauró con éxito",
+            "meeting_cancelled_successfully": "La reunión se canceló con éxito",
+            "link_copied_successfully": "El enlace de la reunión se copió correctamente al portapapeles",
+            "meeting_started_successfully": "La reunión comenzó con éxito en una nueva pestaña"
+        }
+    },
+    "Invitations": {
+        "titles": {
+            "send_invitations": "Enviar invitaciones a los participantes",
+            "notify_attendees": "Notificar a los participantes"
+        },
+        "labels": {
+            "to": "A",
+            "cc": "CC",
+            "calendar_request": "Incluir invitación de calendario",
+            "calendar_cancel": "Incluir cancelación de calendario",
+            "subject": "Tema",
+            "date": "Fecha",
+            "sent_on": "Enviado el "
+        },
+        "errors": {
+            "to_empty": "Se requiere al menos un participante",
+            "error_cc": "CC no es válido: para varios correos electrónicos use ',' o ';' como separador",
+            "error_bcc": "BCC no es válido: para varios correos electrónicos use ',' o ';' como separador",
+            "subject_required": "Se requiere el tema",
+            "content_required": "Se requiere el contenido"
+        },
+        "msgs": {
+            "invitations_sent_successfully": "¡Las invitaciones fueron enviadas exitosamente!",
+            "notifications_sent_successfully": "¡Las notificaciones fueron enviadas exitosamente!"
+        },
+        "email": {
+            "line_request": "<p>Estás invitado a unirte a una reunión el <b>{{dateTime}}</b>.</p>",
+            "line_cancel": "<p>La reunión del <b>{{dateTime}}</b> se canceló.</p>",
+            "line_subject": "<p><u>Tema:</u> <b>{{subject}}</b></p>",
+            "line_description": "<p><u>Descripción:</u> {{description}}</p>",
+            "line_link": "<p><a href='{{link}}' style='color: darkBlue'><b>Aquí está el enlace TEAM-1.CO para unirse a la sesión ({{link}})</b></a></p>",
+            "line_password": "<p><i>Utilice esta contraseña <b><u>{{password}}</u></b> para conectarse</i></p>",
+            "line_title_agenda": "<b><u>Orden del día</u></b>",
+            "line_title_goals": "<b><u>Objetivos</u></b>",
+            "line_priority_p5": "  <span style='color: #e55353'>(Alto)</span>",
+            "line_priority_p3": "  <span style='color: darkOrange'>(Medio)</span>",
+            "line_priority_p1": "  <span style='color: #2eb85c'>(Bajo)</span>",
+            "line_title_attendees": "<b><u>Participantes</u></b>",
+            "line_presence_required": "  <span style='color: #39f'>(Necesario)</span>",
+            "line_presence_optional": "  <span style='color: #636f83'>(Opcional)</span>",
+            "line_title_documents": "<b><u>Documentos</u></b>",
+            "line_title_notes": "<b><u>Notas</u></b>"
+        }
+    },
+    "Objectives": {
+        "titles": {
+            "manage_meeting_objectives": "¿Se alcanzaron los objetivos de la reunión?"
+        },
+        "labels": {
+            "completed": "Terminado",
+            "add_item": "¿Algún objetivo adicional alcanzado?",
+            "edit_item": "Editar objetivo adicional",
+            "new": "Nuevo"
+        },
+        "msgs": {
+            "meeting_objectives_updated_successfully": "¡Los objetivos de la reunión se actualizaron con éxito!"
+        }
+    },
+    "Meeting": {
+        "titles": {
+            "new_meeting": "Programar una reunión",
+            "edit_meeting": "Editar reunión",
+            "general_information": "Información general",
+            "agenda": "Orden del día",
+            "attendees": "Participantes",
+            "goals": "Objectivos",
+            "documents": "Documentos",
+            "notes": "Notas"
+        },
+        "errors": {
+            "subject_required": "El tema es requerido",
+            "type_required": "El tipo es requerido",
+            "date_required": "Fecha es requerido",
+            "time_required": "Hora es requerido",
+            "duration_required": "Duración es requerida",
+            "duration_equal_to_zero": "Duración es requerida",
+            "meeting_shorter_agenda": "a duración de la reunión es más corta que la lista de temas en el order del día",
+            "agenda_shorter_meeting": "La lista de temas en el orden del día es más corta que la duración de la reunión",
+            "meeting_date_not_valid": "La fecha / hora de inicio de la reunión debe ser en el futuro"
+        },
+        "labels": {
+            "new_meeting": "Programar una nueva reunión",
+            "subject": "Tema",
+            "type": "Tipo de reunión",
+            "board_meeting": "Junta directiva",
+            "ideation": "Ideación",
+            "interview": "Entrevista",
+            "planning": "Planificación",
+            "other": "Otro tipo de reunión",
+            "status": "Reunión de estado",
+            "webinar": "Seminario web",
+            "reference": "Referencia",
+            "description": "Descripción",
+            "secure_meeting_checked": "Se requiere una contraseña para unirse a la reunión",
+            "secure_meeting_unchecked": "No se requiere contraseña para unirse a la reunión",
+            "date": "Fecha",
+            "time": "Hora",
+            "duration_h": "Hora(s)",
+            "duration_m": "Minuto(s)",
+            "timezone": "Zona horaria",
+            "timezone_help": "Puede actualizar su zona horaria predeterminada yendo a la configuración de su perfil",
+            "notes": "Notas",
+            "code": "Código"
+        },
+        "msgs": {
+            "meeting_created_successfully": "¡La reunión se creó con éxito!",
+            "meeting_updated_successfully": "¡La reunión se actualizó con éxito!"
+        }
+    },
+    "Agenda": {
+        "labels": {
+            "scheduled": "Programado",
+            "add_item": "Añadir un punto al orden del día",
+            "edit_item": "Editar punto",
+            "duration": "Duración"
+        },
+        "errors": {
+            "agenda_duration_add": "La duración de la reunión no permite añadir este elemento",
+            "agenda_duration_update": "La duración de la reunión no permite que este elemento se actualice"
+        }
+    },
+    "Goals": {
+        "labels": {
+            "add_item": "Añadir un objetivo",
+            "edit_item": "Editar objetivo",
+            "priority": "Prioridad",
+            "p1": "Bajo",
+            "p3": "Medio",
+            "p5": "Alto"
+        }
+    },
+    "Attendees": {
+        "labels": {
+            "add_item": "Añadir un participante",
+            "edit_item": "Editar participante",
+            "type": "Tipo",
+            "guest": "Invitado",
+            "coHost": "Coorganizador",
+            "organizer": "Organizador",
+            "required": "Necesario",
+            "optional": "Opcional"
+        }
+    },
+    "Docs": {
+        "buttons": {
+            "add_doc": "Añadir un documento",
+            "from_url": "URL",
+            "from_file": "Subir archivo"
+        },
+        "labels": {
+            "upload_file": "Haga clic aquí para cargar un archivo!",
+            "file_type": "Las extensiones permitidas son {{var}}",
+            "file_too_large": "Tamaño máximo de archivo permitido {{var}} mb",
+            "filename": "Ingrese el nombre del documento",
+            "add_link": "Ingrese URL",
+            "edit_item": "Editar nombre del documento",
+            "edit_link": "Editar URL"
+        },
+        "errors": {
+            "file_type": "¡El tipo de archivo no está permitido!",
+            "file_too_large": "¡El archivo es demasiado grande!"
+        }
+    },
+
+    "Joining": {
+        "labels": {
+            "disconnected": "Has sido desconectado."
+        }
+    },
+    "Summary": {
+        "titles": {
+            "participant_information": "Información del participante"
+        },
+        "labels": {
+            "fullName": "Nombre completo*",
+            "email": "Ccorreo electrónico*",
+            "password": "Contraseña*",
+            "organizer": "Organizador",
+            "status_new": "La reunión está programada en más de {{var}} minutos.<br/> ¡Intenta nuevamente más tarde!",
+            "status_completed": "La reunión ha terminado.",
+            "status_timer_new": "El organizador aún no ha llegado.<br/>Por favor espere mientras el organizador comienza la reunión...",
+            "status_timer_wait": "La reunión comenzará en {{var}} minutos.<br/> Por favor espere mientras el organizador comienza la reunión...",
+            "status_timer_started": "La reunión comenzó hace {{var}} minutos..."
+        },
+        "errors": {
+            "fullName_required": "Nombre completo es requerido",
+            "fullName_min": "El nombre completo debe tener al menos 2 caracteres",
+            "email_required": "Correo electronico es requerido",
+            "email_not_valid": "El correo electrónico ingresado no es válido",
+            "password_length": "La longitud de la contraseña debe tener al menos 8 caracteres",
+            "password_not_valid": "La contraseña no es valido"
+        }
+    },
+    "Execution": {
+        "titles": {
+            "manage_meeting_objective": "¿Se logró el objetivo de la reunión?",
+            "additional_objective": "Objetivo adicional",
+            "additional_document": "Documento adicional",
+            "edit_document": "Editar documento",
+            "additional_participant": "Participante adicional",
+            "chat": "Charla",
+            "whiteboard": "Pizarron",
+            "ideation": "Ideación",
+            "votes": "Votos",
+            "tasks": "Tareas",
+            "file_viewer": "Visor de archivos",
+            "questions": "Preguntas",
+            "reply": "Contestar",
+            "pdf_viewer": "Visor de PDF"
+        },
+        "labels": {
+            "msg": "Ingrese su mensaje...",
+            "chat_disabled": "El organizador ha deshabilitado el chat",
+            "display": "Mostrar",
+            "all": "Todas",
+            "answered": "Contestada",
+            "reply": "Contestar",
+            "additional_reply": "Respuesta adicional",
+            "response": "Ingrese su respuesta...",
+            "unanswered": "Sin respuesta",
+            "questions": "Ingrese su pregunta ...",
+            "questions_disabled": "El organizador ha deshabilitado la posibilidad de enviar preguntas",
+            "additional_objective": "Objetivo adicional",
+            "docs_disabled": "El organizador ha deshabilitado la capacidad de enviar documentos",
+            "settings": "Ajustes",
+            "option_disable_chat": "Deshabilitar chat para invitados",
+            "option_disable_chat_desc": "Al marcar esta opción, los invitados no podrán enviar mensajes",
+            "option_disable_questions": "Inhabilitar preguntas para invitados",
+            "option_disable_questions_desc": "Al marcar esta opción, los invitados no podrán enviar preguntas",
+            "option_disable_docs": "Deshabilitar el envío de documentos para invitados",
+            "option_disable_docs_desc": "Al marcar esta opción, los invitados no podrán enviar un documento",
+            "option_whiteboard_owner": "Propietario de la pizarra",
+            "option_ideation_owner": "Pizarra",
+            "option_votes_owner": "Votos",
+            "option_project_owner": "Proyecto",
+            "option_settings_desc": "Cualquier cambio será efectivo una vez que haga clic en el botón <u>Aplicar</u>"
+        },
+        "buttons": {
+            "additional_objective": "Objetivo adicional",
+            "additional_document": "Documento adicional",
+            "additional_participant": "Participante adicional"
+        },
+        "msgs": {
+            "participant_joined": "{{var}} se unió a la reunión",
+            "participant_left": "{{var}} salió de la reunión",
+            "msg_not_sent": "No se puede enviar el mensaje",
+            "question_not_sent": "No se puede enviar la pregunta",
+            "answer_not_submitted": "No se puede enviar la respuesta",
+            "meeting_answers_updated": "Se proporcionó una respuesta a una de las preguntas",
+            "meeting_objectives_updated": "Objetivos de la reunión actualizados",
+            "meeting_objectives_not_updated": "No se puede actualizar el objetivo de la reunión",
+            "meeting_docs_updated": "Documentos de la reunión actualizados",
+            "meeting_docs_not_updated": "No se pueden actualizar los documentos de la reunión",
+            "meeting_participants_updated_successfully": "¡Los participantes de la reunión se actualizaron con éxito!",
+            "meeting_participants_not_updated": "No se pueden actualizar los asistentes a la reunión",
+            "settings_updated_successfully": "¡La configuración se aplicó con éxito!",
+            "settings_not_updated": "No se puede aplicar la configuración",
+            "whiteboard_saved_succesfully": "Archivo listo para descargar",
+            "sync_not_sent": "No se puede sincronizar"
+        }
+    },
+    "Whiteboard": {
+        "labels": {
+            "arrow": "Flecha",
+            "line": "Línea",
+            "circle": "Circulo",
+            "ellipse": "Elipse",
+            "rect": "Rectángulo",
+            "triangle": "Triángulo",
+            "enter_text": "Ingrese su texto ..."
+        }
+    },
+    "Ideation": {
+        "titles": {
+            "additional_node": "Nodo Adicional",
+            "edit_node": "Editar nodo",
+            "save": "Guardar",
+            "open": "Abrir"
+        },
+        "labels": {
+            "title": "Ingrese el título del nodo...",
+            "description": "Ingrese la descripción del nodo...",
+            "flag": "Bandera",
+            "save_as_new": "Guardar bajo un nuevo archivo",
+            "name": "Ingrese el nombre del archivo",
+            "select_file_to_override": "Seleccione el archivo para anular",
+            "select_file_to_open": "Seleccione el archivo para abrir"
+        },
+        "msgs": {
+            "file_saved_successfully": "¡Archivo guardado exitosamente!",
+            "file_not_saved": "No se puede guardar el archivo",
+            "file_opened_successfully": "¡Archivo abierto exitosamente!",
+            "unable_to_open_the_file": "No se puede abrir el archivo"
+        }
+    },
+    "Votes": {
+        "titles": {
+            "additional_vote": "Voto adicional",
+            "edit_vote": "Editar voto",
+            "submit_vote": "Enviar voto",
+            "id": "ID",
+            "title": "TÍTULO",
+            "type": "TIPO",
+            "status": "ESTADO",
+            "votes": "VOTOS"
+        },
+        "labels": {
+            "title": "Ingrese el título ...",
+            "description": "Ingrese la descripción...",
+            "type": "Tipo de voto",
+            "type_yes_no": "Sí/No",
+            "type_percentage": "Porcentaje",
+            "type_levels": "Niveles",
+            "type_custom": "Personalizado",
+            "number": "Numero de opciones",
+            "option": "Ingrese la opción ",
+            "status_created": "Creado",
+            "status_in_progress": "En progreso",
+            "status_completed": "Terminado",
+            "cancel": "Cancelar voto",
+            "launch": "Lanzar voto",
+            "results": "Mostrar resultados",
+            "edit": "Editar voto",
+            "vote": "Votar",
+            "end": "Voto final",
+            "very_low": "Muy bajo",
+            "low": "Bajo",
+            "moderate": "Moderado",
+            "high": "Alto",
+            "very_high": "Muy alto"
+        }
+    },
+
+    "Dashboard": {
+        "labels": {
+            "assigned_tasks": "Tareas que me asignaron con el estado <b>'nuevo'</b> o <b>'asignado'</b>",
+            "total": "Total",
+            "meetings": "Reuniones",
+            "cancelled": "Canceladas",
+            "completed": "Terminadas",
+            "upcoming": "Proximas"
+        }
+    },
+
+    "Website": {
+        "nav": {
+            "home": "Inicio",
+            "our_solution": "Nuestra solución",
+            "testimony": "Testimonio",
+            "pricing": "Precios",
+            "pictures": "Imágenes",
+            "blog": "Blog",
+            "contact": "Contacto",
+            "login": "Iniciar",
+            "register": "Registrarse",
+            "label": "<span className='font-3xl'>Crear <i className='font-5xl'>grupos de trabajo</i> que la gente quiere ser parte de</span><br/><span className='font-3xl'>Organiza reuniones que <i className='font-5xl'>la gente</i> quiere unirse</span><br/><span className='font-3xl'>Toma <i className='font-5xl'>las mejores decisiones para tus objetivos</i></span><br/><span className='font-3xl'>Organice <i className='font-5xl'>tareas todo en una solución automatizada</i></span>"
+        },
+        "solution": {
+            "title_1": "Panel de colaboración en vivo",
+            "desc_1": "Permite que todo su equipo vea los objetivos de la reunión, la línea de tiempo, la ideación, la votación y la asignación de tareas, todo en una interfaz visual en vivo compartida",
+            "title_2": "Integración de calendario",
+            "desc_2": "Enviar, recibir, aprobar, cancelar y rechazar invitaciones a reuniones",
+            "title_3": "Carga de documentos previa a la reunión",
+            "desc_3": "Permite que el organizador de la reunión cargue todos los materiales relevantes antes de la reunión para ahorrar tiempo de lectura",
+            "title_4": "Oficina virtual colaborativa",
+            "desc_4": "Permite a los miembros del equipo compartir sus sugerencias y votar anónimamente sobre las mejores ideas sin las restricciones y prejuicios tradicionales.",
+            "title_5": "Asignación de tareas",
+            "desc_5": "Asigne, rastree y complete tareas dentro y fuera de las reuniones con un panel de tareas compartidas fácil de usar",
+            "title_6": "Pizarron",
+            "desc_6": "Mejore la colaboración y facilite una mejor comunicación utilizando la pizarra de reunión compartida"
+        },
+        "pricing": {
+            "monthly": "Plan mensual",
+            "annually": "Plan Anual",
+            "monthly_billed": "Por usuario, por mes: facturado mensualmente",
+            "annually_billed": "Por usuario, por mes: facturado anualmente",
+            "feature1": "Gestión de usuarios",
+            "feature2": "Gestión de proyectos",
+            "feature3": "Gestión de tareas",
+            "feature4": "Gestión de reuniones",
+            "feature5": "Gestión de objetivos",
+            "feature6": "Ideación compartida",
+            "feature7": "Pizarra compartida",
+            "feature8": "Voto anónimo en vivo"
+        },
+        "contact": {
+            "title": "Sobre nosotros / Misión",
+            "details": "Diseñamos y creamos la solucione Team-1 para que las reuniones y la colaboración sean más divertidas, eficientes y empoderadoras para diversos grupos. Los propietarios y gerentes de negocios pueden usar el Team-1 para crear un mejor retorno de la inversión para los salarios que pagan a sus equipos al hacer que las reuniones sean más eficientes y aprovechar al máximo cada miembro del equipo a través de la solucione de colaboración Team-1.",
+            "address": "Nuestra dirección",
+            "social_title": "Conéctate con nosotros",
+            "drop_line": "Escríbanos",
+            "name": "Nombre",
+            "email": "Email",
+            "message": "Mensaje",
+            "send_message": "Enviar mensaje",
+            "confirmation": "Su mensaje fue enviado exitosamente. Nos contactaremos a la brevedad!"
+        }
+    }
+}

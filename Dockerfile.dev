@@ -1,0 +1,17 @@
+#Image
+FROM node:latest
+
+#Application directory
+WORKDIR /usr/src/app
+
+#Installing application dependencies
+COPY package.json package-lock.json ./
+RUN npm install --verbose
+
+#Bundle application source code
+COPY . ./
+
+#Binding port
+EXPOSE 80
+
+CMD ["npm", "run", "dev"]
