@@ -13,7 +13,7 @@ import {
   CRow,
   CSelect,
   CNav,CNavItem,CNavLink,
-  CTabs,CTabContent,CTabPane, CBadge
+  CTabs,CTabContent,CTabPane, CBadge,CTextarea
 } from '@coreui/react';
 import {
   CIcon
@@ -25,8 +25,6 @@ import nl2br from "react-nl2br";
 import MomentTZ from "moment-timezone";
 
 import _ from 'lodash';
-
-import { CTextarea } from '@coreui/react/lib/CInput';
 
 //React Select
 import Select from 'react-select';

@@ -18,7 +18,6 @@ import {
 import {
   CIcon
 } from '@coreui/icons-react';
-import { CInputGroupAppend } from '@coreui/react/lib/CInputGroupAddon';
 
 import renderHTML from 'react-render-html';
 import { withTranslation } from 'react-i18next';
@@ -181,11 +180,11 @@ class ForgetPassword extends Component {
                       value={email}
                       onChange={this.handleInputChange}
                       />
-                      <CInputGroupAppend>
+                      <CInputGroupText>
                         <CInputGroupText>
                           <CIcon name="cil-user" />
                         </CInputGroupText>
-                      </CInputGroupAppend>
+                      </CInputGroupText>
                   </CInputGroup>
                   <CRow>
                     <CCol xs="3"></CCol>

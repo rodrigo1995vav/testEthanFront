@@ -7,9 +7,9 @@ import {
   CButton,
   CModal, CModalHeader, CModalBody, CModalFooter,
   CRow,
-  CCol
+  CCol,
+  CTextarea
 } from '@coreui/react';
-import { CTextarea } from '@coreui/react/lib/CInput';
 
 import { withTranslation } from 'react-i18next';
 import MomentTZ from 'moment-timezone';

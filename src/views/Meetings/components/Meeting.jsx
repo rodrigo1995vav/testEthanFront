@@ -14,7 +14,7 @@ import {
   CRow,
   CSelect,
   CNav,CNavItem,CNavLink,
-  CTabs,CTabContent,CTabPane, CBadge
+  CTabs,CTabContent,CTabPane, CBadge,CTextarea
 } from '@coreui/react';
 import {
   CIcon
@@ -38,7 +38,6 @@ import PropTypes from "prop-types";
 import _ from 'lodash';
 
 import i18n from './../../../services/i18n';
-import { CTextarea } from '@coreui/react/lib/CInput';
 
 import Agenda from './../subComponents/Agenda';
 import Attendees from './../subComponents/Attendees';

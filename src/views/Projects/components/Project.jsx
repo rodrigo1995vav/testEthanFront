@@ -13,7 +13,7 @@ import {
   CRow,
   CSelect,
   CNav,CNavItem,CNavLink,
-  CTabs,CTabContent,CTabPane, CBadge
+  CTabs,CTabContent,CTabPane, CBadge,CTextarea
 } from '@coreui/react';
 import {FiUsers} from 'react-icons/fi';
 import {RiArtboard2Line} from 'react-icons/ri';
@@ -25,7 +25,6 @@ import PropTypes from "prop-types";
 
 import _ from 'lodash';
 
-import { CTextarea } from '@coreui/react/lib/CInput';
 
 import Members from './../subComponents/Members';
 import Board from './../subComponents/Board';

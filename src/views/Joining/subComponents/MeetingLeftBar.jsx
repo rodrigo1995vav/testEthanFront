@@ -13,7 +13,8 @@ import {
   CProgress,
   CSwitch,
   CTabs, CTabContent, CTabPane,
-  CSelect
+  CSelect,
+  CTextarea
   } from '@coreui/react';
 import {
   CIcon
@@ -24,7 +25,6 @@ import ReactQuill from 'react-quill';
 import 'quill/dist/quill.snow.css';
 
 import { withTranslation } from 'react-i18next';
-import { CTextarea } from '@coreui/react/lib/CInput';
 
 import _ from 'lodash';
 import MomentTZ from 'moment-timezone';
